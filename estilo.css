@@ -1,5 +1,9 @@
-body{
-background-color: white;
+body,html{
+    height: 100%;
+    margin:0%
+}
+.bg{
+    background-image: url(backgroundImage.jpg);
 }
 h1{
     font-size: 10px;
