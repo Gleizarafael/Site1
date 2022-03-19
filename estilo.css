@@ -1,23 +1,59 @@
 body{
-background-color: black;
+background-color: white;
 }
 h1{
-    font-size: 40px;
-    color: red;
+    font-size: 10px;
+    color:black;
     text-align: center;
 }
-h2{
-    font-size: 30px;
-    color:bisque
+h2{ 
+    font-size: 20px;
+    color:green;
+    text-align: center;
     
 } 
-h2.fonte-marrom {
+h3{
+    font-size: 20px;
+    color:green;
     text-align: center;
-    color: brown;
+}
+p{
+    font-size: 20px;
+    color:green;
+    text-align: left;
+}
+
 }
 p{ font-size: 20px;
     color:antiquewhite
 
+}
+a{ 
+    text-decoration:none;
+    color:beige;
+    background-color:aquamarine;
+
+}
+
+a:visited{
+    background-color:yellow;
+}
+
+a:hover{
+
+text-decoration:underline;
+    text-decoration-style: solid;
+        text-decoration-color: blue;
+}
+
+a:active{
+    background-color: red;
+}
+
+body {
+    background-image: url(../SITE\ 1/backgroundimage.png);
+    background-size: auto;
+    background-position: center center;
 }
 
  
