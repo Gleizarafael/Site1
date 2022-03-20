@@ -12,7 +12,7 @@ body,html{
 }
 
 h1{ 
-    font-size: 20px;
+    font-size: 40px;
     color:white;
     text-align: center;
     
@@ -24,8 +24,14 @@ h2{
 }
 h3{
     font-size: 20px;
-    color:blue;
+    color:red;
     text-align: center
+}
+
+h4{
+    font-size:25px;
+    color:gray
+
 }
 p{
     font-size: 20px;
@@ -41,13 +47,12 @@ p{ font-size: 20px;
 a{ 
     text-decoration:none;
     color:beige;
-    background-color:aquamarine;
     text-align: center;
 
 }
 
 a:visited{
-    background-color:yellow;
+    background-color:white;
     text-align: center;
 }
 
@@ -55,7 +60,7 @@ a:hover{
 
 text-decoration:underline;
     text-decoration-style: solid;
-        text-decoration-color: blue;
+        text-decoration-color:red;
         text-align: center;
 }
 
