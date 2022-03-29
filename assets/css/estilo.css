@@ -3,23 +3,29 @@ body,html{
     margin:0%
 }
 .bg{
-    background-image: url(backgroundImage.jpg);
+    background-image: url(../imagens/backgroundImage.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
 
 }
+.texto-centralizado{
+    text-align: center;
+    font-size: larger;
+    font: bold;
+
+}
 
 h1{ 
     font-size: 40px;
-    color:white;
+    color:black;
     text-align: center;
     
 } 
 h2{
     font-size: 20px;
-    color:white;
+    color:black;
     text-align: center;
 }
 h3{
@@ -30,12 +36,12 @@ h3{
 
 h4{
     font-size:25px;
-    color:gray
+    color:black
 
 }
 p{
     font-size: 20px;
-    color:white;
+    color:black;
     text-align: left;
 }
 
@@ -67,5 +73,29 @@ a:active{
     background-color: red;
 }
 
-
  
+article{
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    padding-left: 8px;
+    padding-right: 8px;
+    margin-top: 8px;
+    margin-left: 8px;
+    margin-right: 2px;
+    flex-basis: 30%;
+
+}
+.container{
+    display:flex;
+    flex-wrap: wrap;
+    
+}
+
+.img{
+    width: 300px;
+    height: auto;
+    border-radius: 50%;
+    alt="Trupe mais um sorriso - Resende Rj"
+}
+
